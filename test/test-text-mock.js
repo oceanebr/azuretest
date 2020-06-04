@@ -31,7 +31,7 @@ describe('text module with mock', function() {
             if (err) { return done(err); }
 
             assert.equal(data.length, 3);
-            assert.deepEqual(data, ['hola', 'cervesa', 'I like dont beer']);
+            assert.deepEqual(data, ['hola', 'cervesa', 'I like beer']);
 
             done();
 
