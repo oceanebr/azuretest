@@ -1,0 +1,16 @@
+{
+    "name": "unit-tests",
+    "version": "0.1.0",
+    "private": true,
+    "description": "A testbed for unit testing Node",
+    "main": "server.js",
+    "scripts": {
+        "test": "node node_modules/mocha/bin/mocha"
+    },
+    "devDependencies": {
+        "chai": "^3.4.1",
+        "mocha": "^6.2.0",
+        "sinon": "^1.17.2",
+        "superagent": "^5.1.0"
+    }
+}
