@@ -9,7 +9,7 @@
     },
     "devDependencies": {
         "chai": "^3.4.1",
-        "mocha": "^6.2.0",
+        "mocha": "^10.2.0",
         "sinon": "^1.17.2",
         "superagent": "^5.1.0"
     }
